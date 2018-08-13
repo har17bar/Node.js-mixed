@@ -22,7 +22,7 @@ function permute(number, lPosintion, rPosition)
        {
           swap(number,lPosintion,rPosition);
           permute(number, lPosintion+1, rPosition);
-          swap(number,lPosintion,i); //backtrack
+          swap(number,lPosintion,i); 
        }
    }
 }
